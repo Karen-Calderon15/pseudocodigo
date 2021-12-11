@@ -1,14 +1,26 @@
 Algoritmo Ejercicio_6
+	
+	HE<-0
+	HS<-0
+	pago<-0
+	fraccion<-0
+	HC<-0
+	HR<-0
 	Mostrar "Ingresar hora de entrada"
 	Leer HE
 	
 	Mostrar "Ingresar hora de salida"
 	Leer HS
 	
-	HC<-HS-HE
+	HC<- trunc((HS-HE)/100)
 	HF<-HC-HC
+	
+	
 	si HC>=1 Entonces 
-		Mostrar "El pago es d"
+		Mostrar HC
+		
+	SiNo
+		Mostrar HF
 	FinSi
 //		Mostrar "El pago de servicio es:",HC
 		SI HF<=1 Entonces
