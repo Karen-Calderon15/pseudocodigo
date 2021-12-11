@@ -1,7 +1,7 @@
 Algoritmo Ejercicio_1
 	Mostrar "Ingresar tres numeros"
 	Leer a,b,c
-	Si (a=b) Entonces
+	Si a=b y a=c  Entonces
 		Mostrar "No se puede continuar, ha ingresado numeros iguales"
 	SiNo
 		si (a>b) Entonces
